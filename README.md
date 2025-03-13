@@ -1,2 +1,4 @@
 Chapter 15. Inheritance.
-Lab materials.
+- Single Inheritance
+- Multiple Inheritance
+- The Diamond Problem
