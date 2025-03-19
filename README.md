@@ -1,4 +1,4 @@
-Chapter 15. Inheritance.
+**Chapter 15. Inheritance.**
 - Single Inheritance
 - Multiple Inheritance
-- The Diamond Problem
+- The Diamond Problem (virtual public mode)
