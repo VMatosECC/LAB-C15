@@ -4,27 +4,27 @@ The provided C++ code demonstrates the concept of multiple inheritance using thr
 Person, Artist, and Musician. 
 Classes and Inheritance
 1.	Base Class: Person
-•	The Person class represents a person with a name and age.
-•	It has a constructor to initialize the name and age attributes.
-•	The displayPersonInfo method prints the person's name and age.
+â€¢	The Person class represents a person with a name and age.
+â€¢	It has a constructor to initialize the name and age attributes.
+â€¢	The displayPersonInfo method prints the person's name and age.
 2.	Base Class: Artist
-•	The Artist class represents artistic skills.
-•	It has a method performArt that prints a message indicating artistic performance.
+â€¢	The Artist class represents artistic skills.
+â€¢	It has a method performArt that prints a message indicating artistic performance.
 3.	Derived Class: Musician
-•	The Musician class inherits from both Person and Artist.
-•	It has an additional attribute instrument to represent the musical instrument 
+â€¢	The Musician class inherits from both Person and Artist.
+â€¢	It has an additional attribute instrument to represent the musical instrument 
     the musician plays.
-•	The constructor initializes the name and age attributes using the Person constructor 
+â€¢	The constructor initializes the name and age attributes using the Person constructor 
     and sets the instrument.
-•	The playInstrument method prints a message indicating the musician is playing 
+â€¢	The playInstrument method prints a message indicating the musician is playing 
     the instrument and calls the performArt method from the Artist class.
-•	The displayMusicianInfo method calls the displayPersonInfo method from 
+â€¢	The displayMusicianInfo method calls the displayPersonInfo method from 
     the Person class and prints the instrument information.
 Main Function
-•	The main function creates an instance of the Musician class with the 
+â€¢	The main function creates an instance of the Musician class with the 
     name "Lisa Simpson", age 8, and instrument "Saxophone".
-•	It then calls the displayMusicianInfo method to print the musician's information.
-•	Finally, it calls the playInstrument method to print the message indicating 
+â€¢	It then calls the displayMusicianInfo method to print the musician's information.
+â€¢	Finally, it calls the playInstrument method to print the message indicating 
     the musician is playing the instrument and performing art.
 */
 #include <iostream>
